@@ -1,8 +1,15 @@
 <?php
 
+tarefa01();
+tarefa02();
+tarefa03();
+tarefa04();
 tarefa05();
 
 function tarefa01(){
+
+    echo "### TAREFA 01 ###\n\n";
+
     $indice = 13;
     $soma=0;
 
@@ -11,10 +18,12 @@ function tarefa01(){
         $soma = $soma + $k;
     }
 
-    echo $soma;
+    echo 'O valor da Variavel SOMA é: '.$soma;
 }
 
 function tarefa02(){
+
+    echo "\n\n### TAREFA 02 ###\n\n";
 
     $n = 10;
     $f = fibonacci($n);
@@ -43,6 +52,8 @@ function pertenceFibonacci($n, $f) {
 }
 
 function tarefa03(){
+
+    echo "### TAREFA 03 ###\n\n";
 
     $json = '[
         {
@@ -211,12 +222,14 @@ function tarefa03(){
         }
     }
 
-    echo 'Menor: '.$menor."\nMaior: ".$maior;
+    echo 'Menor: '.$menor."\nMaior: ".$maior."\n";
     echo 'Media: '.$media."\n";
     echo 'Qtde Dias de Faturamento Maior que a Media: '.$qtdeDias."\n";
 }
 
 function tarefa04(){
+
+    echo "### TAREFA 04 ###\n\n";
 
     $sp = 67836.43;
     $rj = 36678.66;
@@ -234,6 +247,8 @@ function tarefa04(){
 }
 
 function tarefa05(){
+
+    echo "### TAREFA 05 ###\n\n";
 
     $string = "TESTE";
     $stringReverse="";
