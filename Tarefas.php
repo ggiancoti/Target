@@ -1,10 +1,10 @@
 <?php
 
-//tarefa01();
-//tarefa02();
+tarefa01();
+tarefa02();
 tarefa03();
-//tarefa04();
-//tarefa05();
+tarefa04();
+tarefa05();
 
 function tarefa01(){
 
