@@ -239,11 +239,11 @@ function tarefa04(){
 
     $total = $sp+$rj+$mg+$es+$outros;
 
-    echo 'SP: '.($sp/$total*100).'%'."\n";
-    echo 'RJ: '.($rj/$total*100).'%'."\n";
-    echo 'MG: '.($mg/$total*100).'%'."\n";
-    echo 'ES: '.($es/$total*100).'%'."\n";
-    echo 'OUTROS: '.($outros/$total*100).'%';
+    echo 'SP: '.number_format($sp/$total*100,2).'%'."\n";
+    echo 'RJ: '.number_format($rj/$total*100,2).'%'."\n";
+    echo 'MG: '.number_format($mg/$total*100,2).'%'."\n";
+    echo 'ES: '.number_format($es/$total*100,2).'%'."\n";
+    echo 'OUTROS: '.number_format($outros/$total*100,2).'%';
 }
 
 function tarefa05(){
