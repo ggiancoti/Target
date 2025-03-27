@@ -53,7 +53,7 @@ function pertenceFibonacci($n, $f) {
 
 function tarefa03(){
 
-    echo "### TAREFA 03 ###\n\n";
+    echo "\n\n### TAREFA 03 ###\n\n";
 
     $json = '[
         {
@@ -229,7 +229,7 @@ function tarefa03(){
 
 function tarefa04(){
 
-    echo "### TAREFA 04 ###\n\n";
+    echo "\n\n### TAREFA 04 ###\n\n";
 
     $sp = 67836.43;
     $rj = 36678.66;
@@ -248,7 +248,7 @@ function tarefa04(){
 
 function tarefa05(){
 
-    echo "### TAREFA 05 ###\n\n";
+    echo "\n\n### TAREFA 05 ###\n\n";
 
     $string = "TESTE";
     $stringReverse="";
@@ -258,5 +258,5 @@ function tarefa05(){
         $stringReverse = $stringReverse.$string[$i];
     }
 
-    echo $stringReverse;
+    echo "A String Reversa é: ".$stringReverse;
 }
