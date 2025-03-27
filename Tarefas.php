@@ -1,10 +1,10 @@
 <?php
 
-tarefa01();
-tarefa02();
+//tarefa01();
+//tarefa02();
 tarefa03();
-tarefa04();
-tarefa05();
+//tarefa04();
+//tarefa05();
 
 function tarefa01(){
 
@@ -179,7 +179,7 @@ function tarefa03(){
     ]';
 
     $json = json_decode($json);
-    $menor=0;
+    $menor='';
     $maior=0;
     $soma=0;
     $media=0;
@@ -191,7 +191,7 @@ function tarefa03(){
         $dia = json_encode($value->dia);
         $valor = json_encode($value->valor);
 
-        if($valor<$menor || $menor==0){
+        if($valor<$menor && $valor!=0 || !$menor){
 
             $menor = $valor;
         }
